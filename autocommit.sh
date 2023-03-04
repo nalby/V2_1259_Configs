@@ -73,6 +73,7 @@ push_config(){
   git add .
   current_date=$(date +"%Y-%m-%d %T")
   git commit -m "Autocommit from $current_date" -m "$m1" -m "$m2" -m "$m3" -m "$m4"
+  git remote add origin https://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@github.com/nalby/Voron_1259_Backup.git
   git push origin master
 }
 
