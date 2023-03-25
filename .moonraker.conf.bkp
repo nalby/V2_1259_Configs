@@ -24,6 +24,9 @@ cors_domains =
 
 [history]
 
+[file_manager]
+enable_object_processing = True
+
 [update_manager]
 channel = dev
 refresh_interval = 168
@@ -46,4 +49,10 @@ type = git_repo
 path = ~/crowsnest
 origin = https://github.com/mainsail-crew/crowsnest.git
 install_script = tools/install.sh
+
+[update_manager led_effect]
+type = git_repo
+path = ~/klipper-led_effect
+origin = https://github.com/julianschill/klipper-led_effect.git
+is_system_service = False
 
